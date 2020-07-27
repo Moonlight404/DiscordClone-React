@@ -1,0 +1,11 @@
+.serverList{
+    position: fixed;
+    width: 72px;
+    height: 100%;
+    background: var(--background-tertiary);
+    overflow: auto;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
