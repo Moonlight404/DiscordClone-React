@@ -8,6 +8,9 @@
     border-radius: 50%;
     color: #ccc;
     transition: 0.2s ease;
+    left: -165px;
+    top: 4px !important;
+    z-index: 10;
 }
 
 .serverButton::after{
@@ -35,10 +38,6 @@
     margin: 0px auto;
 }
 
-.home{
-    background-color: var(--discord);
-}
-
 .serverButton .homeIcon{
     color: #fff;
     left: 20%;
@@ -48,18 +47,19 @@
 
 .serverIcon{
     margin: 5px auto;
-    top: 5px;
+    top: 15px;
 }
 
 .serverButton .modal{
-    position: fixed;
+    position: absolute;
     width: -moz-fit-content;
     width: fit-content;
     background-color: #000;
     color: #fff;
     padding: 10px;
+    left: 0px;
     margin: 4px 67px 6px;
-    max-width: 150px;
+    max-width: 400px;
 }
 
 .serverButton .modal::after{
